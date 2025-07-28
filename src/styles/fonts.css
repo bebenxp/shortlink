@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Unison Pro Bold";
+  src: url("/fonts/UnisonProBold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Violet Sans Regular";
+  src: url("/fonts/VioletSansRegular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,26 +1,36 @@
 @import "tailwindcss";
+@import "./fonts.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  /* Colors */
+  --color-vampire-black: #0a0a0a;
+  --color-chinese-black: #161616;
+  --color-dark-charcoal: #303030;
+  --color-charcoal: #313f4e;
+  --color-outer-space: #454545;
+  --color-philippine-gray: #909090;
+  --color-japanese-laurel: #236b2e;
+  --color-smoky-black: #071509;
+  /* --color-inchworm: #B4FF62; */
+  --color-inchworm: #39d77e;
+  --color-laser-lemon: #ffff62;
+  --color-boston-university-red: #d00000;
+  --color-carmine-pink: #ed474b;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Font Families */
+  --font-unison-pro-bold: "Unison Pro Bold", sans-serif;
+  --font-violet-sans: "Violet Sans Regular", sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply font-violet-sans text-white bg-vampire-black scroll-smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-unison-pro-bold tracking-wide;
 }
