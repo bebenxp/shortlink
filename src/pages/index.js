@@ -73,7 +73,7 @@ export default function Home() {
             className="relative hover:scale-105 transition-all duration-150 active:ring-2 active:ring-red-700 active:ring-offset-2 active:ring-offset-neutral-900 bg-gradient-to-b from-red-600 to-red-800 font-bold text-lg text-center rounded-xl p-3"
           >
             <Image
-              src={"/img/logo-square.png"}
+              src={"/img/logo-naga.png"}
               width={36}
               height={36}
               alt=""
@@ -92,7 +92,7 @@ export default function Home() {
                 className="w-full relative hover:scale-105 transition-all duration-150 active:ring-2 active:ring-gray-700 active:ring-offset-2 active:ring-offset-neutral-900 bg-gradient-to-b from-gray-600 to-gray-800 font-bold text-lg text-center rounded-xl p-3"
               >
                 <Image
-                  src={"/img/logo-square.png"}
+                  src={"/img/logo-naga.png"}
                   width={36}
                   height={36}
                   alt=""
@@ -110,7 +110,7 @@ export default function Home() {
             className="relative hover:scale-105 transition-all duration-150 active:ring-2 active:ring-blue-700 active:ring-offset-2 active:ring-offset-neutral-900 bg-gradient-to-b from-blue-600 to-blue-800 font-bold text-lg text-center rounded-xl p-3"
           >
             <Image
-              src={"/img/logo-square.png"}
+              src={"/img/logo-naga.png"}
               width={36}
               height={36}
               alt=""
