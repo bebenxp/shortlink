@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <link rel="amphtml" href="https://9lapakgacor.store/" />
-      <link rel="canonical" href="https://www.9lapakgacor.com/" />
+      <link rel="canonical" href="https://9lapakgacor.com/" />
       <body className="antialiased">
         <Main />
         <NextScript />
