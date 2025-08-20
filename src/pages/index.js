@@ -42,14 +42,14 @@ export default function Home() {
       {/* Banner */}
       <div className="w-full aspect-[1920/1280] relative mb-20">
         <Image
-          src={"/img/banner.jpg"}
+          src={"/img/banner-9l.jpg"}
           fill
           alt=""
           className="object-cover object-center"
         />
         <div className="absolute left-1/2 -bottom-16 -translate-x-1/2">
           <Image
-            src={"/img/logo.jpg"}
+            src={"/img/logo-9l.jpg"}
             width={150}
             height={150}
             alt=""
